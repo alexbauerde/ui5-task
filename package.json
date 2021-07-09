@@ -1,0 +1,19 @@
+{
+  "name": "de.bauerberatung.ui5-task",
+  "version": "1.0.0",
+  "description": "Einstellungsaufgabe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bauerberatungde/ui5-task.git"
+  },
+  "author": "Alexander Bauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bauerberatungde/ui5-task/issues"
+  },
+  "homepage": "https://github.com/bauerberatungde/ui5-task#readme"
+}
