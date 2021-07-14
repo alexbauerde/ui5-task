@@ -75,6 +75,28 @@
       "Region": "IL",
       "PostalCode": "48100",
       "Country": "Italy"
+    },
+    {
+      "SupplierID": "L008",
+      "CompanyName": "BK-LAN e.V.",
+      "ContactName": "Jens Herrmann",
+      "ContactTitle": "CEO",
+      "Address": "Winzenheimerstraße 10",
+      "City": "Hargesheim",
+      "Region": "DE",
+      "PostalCode": "55595",
+      "Country": "Germany"
+    },
+    {
+      "SupplierID": "L009",
+      "CompanyName": "Pizza Lorenzo GmbH",
+      "ContactName": "Wolfgang Dutzi",
+      "ContactTitle": "CEO",
+      "Address": "Falltorstraße 8-10",
+      "City": "Hambrücken",
+      "Region": "DE",
+      "PostalCode": "76707",
+      "Country": "Germany"
     }
   ]
 }

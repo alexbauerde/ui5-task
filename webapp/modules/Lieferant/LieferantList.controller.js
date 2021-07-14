@@ -19,14 +19,19 @@ sap.ui.define([
             this.getModel("AppModel").setProperty("/layout", sLayout);
         },
 
-        onSearch: function() {
-            // #TodoFilter
-
-            // Referenz auf die Liste
-            var oList = this.getView().byId("supplierList");
-
-            // Filterung/Suche hier implementieren
-        }
+        onSearch: function(oEvent) {
+            var sQuery = oEvent.getSource().getValue();  
+            var oFilter = new sap.ui.model.Filter({
+            filters: [
+                new sap.ui.model.Filter("SupplierID", sap.ui.model.FilterOperator.Contains, sQuery),
+                new sap.ui.model.Filter("CompanyName", sap.ui.model.FilterOperator.Contains, sQuery)
+                ],
+            });
+      
+            var oBinding = this.byId("supplierList").getBinding("items");     
+         
+            oBinding.filter(oFilter, sap.ui.model.FilterType.Application);
+        },
 
         onRefreshSupplier: function() {
             sap.m.MessageToast.show("Dummy - Refresh");

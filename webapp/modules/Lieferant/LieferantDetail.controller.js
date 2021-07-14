@@ -13,7 +13,7 @@ sap.ui.define([
 
             // this.getRouter().getRoute("CustomerDetail").attachPatternMatched(this._onRouteMatched, this);
             this.getRouter().attachRouteMatched("LieferantDetail", this._onRouteMatched.bind(this))
-        }
+        },
 
         _onRouteMatched: function(oEvent) {
             let sObjectId = oEvent.getParameter("arguments").id,
