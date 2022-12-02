@@ -19,6 +19,8 @@ herzlichen Glückwunsch, dass du es bis hier hin geschafft hast. Mit dieser Aufg
   - Möglichkeit Lieferantenname oder Nummer einzugeben
 - [ ] Füge 2 weitere Lieferanten in den Mockdaten hinzu
 - [ ] Lieferanten Detail Sicht: Löse das Feld "PLZ" vom "Ort", sodass die Felder einzeln untereinander stehen
+- [ ] Prüfe welche Themes es gibt und ändere das Theme für die gesamte Anwendung
+- [ ] Dir fallen weitere Optimierungen ein? Dann tob dich aus !
 
 Als Hilfestellung kannst du im Projekt nach "#TodoFilter" suchen, um die korrekte Stelle zu finden.
 
