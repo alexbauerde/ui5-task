@@ -2,6 +2,7 @@
 	"_version": "1.25.0",
 	"start_url": "index.html",
 	"sap.app": {
+		
 		"id": "de.bauerberatung.ui5-task",
 		"title": "App Launcher",
 		"type": "application",
@@ -34,6 +35,7 @@
 			"sap_belize_plus"
 		]
 	},
+	
 	"sap.ui5": {
 		"dependencies": {
 			"minUI5Version": "1.84.3",
@@ -113,6 +115,13 @@
 				}
 			},
 			"config": {
+				"sample": {
+				"stretch": true,
+				"files": [
+					"App.view.xml",
+					"manifest.json"
+				]
+			},
 				"routerClass": "sap.f.routing.Router",
 				"viewType": "XML",
 				"async": true,

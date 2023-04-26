@@ -15,7 +15,6 @@ sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device"], function(UIComponent
                 .then(
                     function() {
                         this.getRouter().initialize();
-
                     }.bind(this)
                 );
         },

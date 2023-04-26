@@ -11,8 +11,8 @@
   <title>BB UI5 Task</title>
 
   <script id="sap-ui-bootstrap"
-          src="https://openui5.hana.ondemand.com/1.71.0/resources/sap-ui-core.js"
-          data-sap-ui-theme="sap_fiori_3"
+  src="https://openui5.hana.ondemand.com/1.108.0/resources/sap-ui-core.js"
+          data-sap-ui-theme="sap_belize"
           data-sap-ui-compatVersion="edge"
           data-sap-ui-async="true"
           data-sap-ui-preload="auto"
@@ -22,7 +22,7 @@
 
   <script>
     sap.ui.getCore().attachInit(function () {
-      sap.ui
+    sap.ui
         .component({
           async: true,
           manifestUrl: "manifest.json"
@@ -35,6 +35,7 @@
                 app: new ComponentContainer({
                   component: createdComponent,
                   height: "100%",
+                  name: "de.bauerberatung.ui5-task",
                 }),
                 appWidthLimited: false
               }).placeAt("content");

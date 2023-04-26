@@ -75,6 +75,30 @@
       "Region": "IL",
       "PostalCode": "48100",
       "Country": "Italy"
+    },
+    {
+      "SupplierID": "L008",
+      "CompanyName": "Test AG",
+      "ContactName": "Max Mustermann",
+      "ContactTitle": "CEO Manager",
+      "Address": "Musterstraße 1",
+      "City": "Musterstadt",
+      "Region": "DE",
+      "PostalCode": "12345",
+      "Country": "Germany"
+    },
+    {
+      "SupplierID": "L009",
+      "CompanyName": "Muster GmbH",
+      "ContactName": "Anna Schmidt",
+      "ContactTitle": "Assistant",
+      "Address": "Blumenstraße 2",
+      "City": "Berlin",
+      "Region": "DE",
+      "PostalCode": "67397",
+      "Country": "Germany"
     }
+
+
   ]
 }
